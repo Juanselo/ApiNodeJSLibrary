@@ -27,7 +27,7 @@ app.use(sessionMiddleware); // Aplica el middleware de sesiones
 
 // Rutas para generar clave API (no usar el middleware de clave API aquí)
 const apiKeysRoutes = require('./src/routes/apiKeyRoutes');
-app.use('/api/apikeys', apiKeysRoutes);
+app.use('/api/api-key', apiKeysRoutes); // Ajustar la ruta a '/api/api-key'
 
 // Aplicar middleware para verificar clave API a rutas protegidas
 const libroRoutes = require('./src/routes/librosRoutes');
