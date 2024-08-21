@@ -12,7 +12,7 @@ services:
       - db
     environment:
       DB_HOST: db
-      DB_PORT: 3306
+      DB_PORT: 
     volumes:
       - .:/usr/src/app
 
@@ -20,8 +20,8 @@ services:
   db:
     image: mysql:8
     environment:
-      MYSQL_ROOT_PASSWORD: Holaqhace1@
-      MYSQL_DATABASE: biblioteca
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: 
     ports:
       - "3307:3306"
     volumes:
