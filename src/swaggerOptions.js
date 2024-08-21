@@ -31,7 +31,7 @@ const options = {
       },
     ],
   },
-  apis: ['./src/routes/librosRoutes.js'], // Ruta a tus archivos de rutas con comentarios de Swagger
+  apis: ['./src/routes/librosRoutes.js'], // Ruta a archivos de rutas con comentarios de Swagger
 };
 
 // Generar especificaciones de Swagger

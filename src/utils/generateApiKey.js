@@ -1,5 +1,5 @@
 const pool = require('../config/dbConfig');
-const generateApiKey = require('../utils/generateApiKey'); // Importa la función para generar la clave
+const generateApiKey = require('../utils/generateApiKey'); // Importar función para generar la clave
 
 /**
  * Crea una nueva clave API y la guarda en la base de datos.
